@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(54, 53, 53);
+    
+    color: black;
+    font-family: "Open Sans", sans-serif;
+}
+
+.profile-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+
+    height: auto;
+    max-width: 150px;
+
+    border-radius: 80%;
+}
+
+.profile-name{
+    text-align: center;
+    margin-top: 10px;
+    border: 10px solid green;
+    border-width: 2px;
+    padding: 30px;
+
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px;
+    
+    font-size: 28px;
+}
+
+.links{
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid blue;
+    border-width: 2px;
+    padding: 10px;
+
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px;
+
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+
+    color: black;
+    transition: color 1px;
+}
+
+a:hover{
+    color: black;
+    background-color: rgb(194, 191, 191);
+}
