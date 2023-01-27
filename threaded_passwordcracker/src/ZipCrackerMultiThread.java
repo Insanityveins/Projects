@@ -51,7 +51,6 @@ public class ZipCrackerMultiThread {
             checker.start();
 
             for (FileThread t : threads) t.start();
-            for (FileThread t : threads) System.out.println(t);;
 
             // main try-catch
         } catch (ZipException ze3) {
