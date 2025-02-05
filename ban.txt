@@ -1,0 +1,3 @@
+Test string
+ball deletion in progress
+/timeout {sender.name} 5
